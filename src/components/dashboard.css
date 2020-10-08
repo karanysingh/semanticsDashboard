@@ -1,0 +1,78 @@
+.App {
+    text-align: center;
+    background-color: #eff2f5;
+  }
+  .ui.segment {
+    border: none;
+    box-shadow: 3px 10px 10px -3px lightgrey;
+}
+.productTitle{
+    color: #2f2d54;
+    padding-block-end: 20px;
+    padding-block-start: 10px;
+    padding-right: 50px;
+  }
+  .descFormat{
+    color: #c6c5cb;
+  }
+  .ui.card.SmallCard{
+    background-color: orange;
+    padding:8%;
+    color: #2f2d54;
+    border-radius: 1rem;
+    box-shadow: 3px 10px 10px -3px lightgrey;
+  }
+  .header.smallcardtitle {
+    font-size: 20px;
+    color:blue;
+  }
+  .ui.segment.MassiveCard {
+    border-radius: 1rem;
+    box-shadow: 3px 10px 10px -3px lightgrey;
+    border: none;
+  }
+  .searchBar{
+    border-radius: 2ch;
+    background-color: #dadada;
+    padding: 2%;
+  }
+  
+  .ui.segment.sidebar{
+    background-color: orange;
+    height: 100%;
+    right:0;
+  }
+  .ui.sidebar.menu {
+    top: 0px;
+    padding:1%;
+  }
+  .ui.segment.headerCard{
+    border-radius: 1rem;
+    top:-35px;
+    height: 100px;
+  }
+  
+  .ui.label.statusLabel {
+    width: 70px;
+    float: right;
+    text-align: center;
+  }
+  .ui.card.SidebarCard {
+    border-radius: 0px;
+    box-shadow: 0px 5px 10px -1px grey;
+  }
+  /* Media Queries */
+  @media only screen and (min-width: 800px) {
+    .productImage{
+      height: 200px;
+      margin-top: -10px;
+  
+    }
+    .searchBar{
+      margin-left: 130px;
+    }
+  
+    .uniformRow{
+    height:220px;
+    }
+    }
